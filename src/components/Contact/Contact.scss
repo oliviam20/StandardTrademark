@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.contactInfoWrapper {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: column;
+
+  @media (min-width: $mobile) {
+    flex-direction: row;
+  }
+}
+
+.label {
+  margin-right: 1rem;
+  width: 110px;
+  font-weight: 900;
+
+  @media (min-width: $mobile) {
+    font-weight: 400;
+  }
+}
