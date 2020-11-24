@@ -2,5 +2,195 @@
   "whatIsTrademarkTitle": "What is considered as a trademark in law?",
   "whatIsTrademarkMessage": "A trademark is a mark that is used to promote and identify the owner's goods or services and to enable the public to distinguish them from the goods or services of other traders. It may be a logo or device, name, signature, word, letter, numeral, smell, figurative elements or combination of colors and includes any combination of such signs and 3-dimensional shapes provided that it must be represented in a form which can be recorded and published, such as by way of drawing or description.",
   "benefitsRegistrationTrademarkTitle": "Benefits of Registration of a Trademark",
-  "benefitsRegistrationTrademarkMessage": "Registration of a trademark will give the owner of a trademark the right to prevent third parties from using his mark, or a deceptively similar mark, without his consent for the goods or services for which it is registered or for similar goods or services. For unregistered trademarks, owners have to rely on common law for protection. It is more difficult to establish one's case under common law."
+  "benefitsRegistrationTrademarkMessage": "Registration of a trademark will give the owner of a trademark the right to prevent third parties from using his mark, or a deceptively similar mark, without his consent for the goods or services for which it is registered or for similar goods or services. For unregistered trademarks, owners have to rely on common law for protection. It is more difficult to establish one's case under common law.",
+  "theTeamTitle": "The Team",
+  "theTeamMessage": "Our company was established in 2005 and our team members are experienced trademark attorneys with more than 20-year experience in trademark registrations worldwide including Hong Kong SAR, China, the USA, the EU, the Middle East, Asian Pacific, African and South American countries, etc. Our in-house lawyer has ample records of successful office action appeals. Our mission is to provide our customers with top-level service relating or incidental to trademark registrations. We strive to ensure that our services are conducted in professional way and yet with personal touch.",
+  "ourServicesTitle": "Our Services",
+  "ourServicesMessage": ["We provide the following services with expertise:", "Trademark availability search", "Trademark applications in different countries/regions", "Trademark renewals and maintenance", "Oppositions", "Appeals for rejected applications"],
+  "applicationFormTitle": "Application Form",
+  "downloadApplicationForm": "Download application form",
+  "trademarkClassificationTitle": "Trademark Classification",
+  "trademarkClassificationMessage": "The 11th edition of Nice Classification has been adopted in trademark registration in Hong Kong and most countries since 1 January, 2017. Forty five (45) classes of goods and services are available in filing applications for registration. Below are headings in brief of the 45 classes: (For preliminary reference only - Please consult us for detailed list. One should not adopt the use of the descriptions below without consultation of professionals)",
+  "trademarkClassificationClasses": [
+    {
+      "class": 1,
+      "description": "Chemicals used in industry, science and photography..."
+    },
+    {
+      "class": 2,
+      "description": "Paints, varnishes, lacquers..."
+    },
+    {
+      "class": 3,
+      "description": "Cosmetics; cleaning, polishing, scouring and abrasive preparations..."
+    },
+    {
+      "class": 4,
+      "description": "Industrial oils and greases; fuels (including motor spirit) and illuminants..."
+    },
+    {
+      "class": 5,
+      "description": "Pharmaceutical, medical and veterinary preparations; food for babies; dietary supplements for humans and animals..."
+    },
+    {
+      "class": 6,
+      "description": "Common metals and their alloys..."
+    },
+    {
+      "class": 7,
+      "description": "Machines and machine tools..."
+    },
+    {
+      "class": 8,
+      "description": "Hand tools and cutlery..."
+    },
+    {
+      "class": 9,
+      "description": "Scientific apparatus and instruments; A/V products; computers; computer software..."
+    },
+    {
+      "class": 10,
+      "description": "Surgical, medical, dental and veterinary apparatus and instruments; artificial limbs, eyes and teeth..."
+    },
+    {
+      "class": 11,
+      "description": "Apparatus for lighting, heating, steam generating, cooking, refrigerating, drying, ventilating, water supply and sanitary purposes."
+    },
+    {
+      "class": 12,
+      "description": "Vehicles and apparatus for locomotion by land, air or water."
+    },
+    {
+      "class": 13,
+      "description": "Firearms, explosives, fireworks..."
+    },
+    {
+      "class": 14,
+      "description": "Jewellery and chronometric instruments..."
+    },
+    {
+      "class": 15,
+      "description": "Musical instruments."
+    },
+    {
+      "class": 16,
+      "description": "Paper, cardboard, printed matter, stationery..."
+    },
+    {
+      "class": 17,
+      "description": "Unprocessed and semi-processed rubber products..."
+    },
+    {
+      "class": 18,
+      "description": "Leather products, luggage and carrying bags..."
+    },
+    {
+      "class": 19,
+      "description": "Building materials (non-metallic)..."
+    },
+    {
+      "class": 20,
+      "description": "Furniture..."
+    },
+    {
+      "class": 21,
+      "description": "Household or kitchen utensils and containers; glassware, porcelain and earthenware..."
+    },
+    {
+      "class": 22,
+      "description": "Ropes and string; nets; tents and tarpaulins..."
+    },
+    {
+      "class": 23,
+      "description": "Yarns and threads, for textile use."
+    },
+    {
+      "class": 24,
+      "description": "Textiles and substitutes for textiles..."
+    },
+    {
+      "class": 25,
+      "description": "Clothing, footwear, headgear."
+    },
+    {
+      "class": 26,
+      "description": "Lace and embroidery, ribbons and braid; buttons, pins and needles; artificial flowers; hair decorations; false hair."
+    },
+    {
+      "class": 27,
+      "description": "Carpets, rugs, mats and wall hangings (non-textile)..."
+    },
+    {
+      "class": 28,
+      "description": "Games, toys and playthings; sport equipment..."
+    },
+    {
+      "class": 29,
+      "description": "Meat, fish, poultry, preserved and cooked fruits and vegetables, jellies, jams, eggs; milk and milk products..."
+    },
+    {
+      "class": 30,
+      "description": "Coffee, tea, cocoa and artificial coffee; rice; tapioca and sago; flour and preparations made from cereals; bread, pastries and confectionery..."
+    },
+    {
+      "class": 31,
+      "description": "Raw and unprocessed agricultural, aquacultural, horticultural and forestryInsurance; financial affairs; monetary affairs; real estate affairs products..."
+    },
+    {
+      "class": 32,
+      "description": "Beers; mineral and aerated waters and other non-alcoholic beverages..."
+    },
+    {
+      "class": 33,
+      "description": "Alcoholic beverages (except beers)..."
+    },
+    {
+      "class": 34,
+      "description": "Tobacco; smokers' articles; matches..."
+    },
+    {
+      "class": 35,
+      "description": "Advertising and business management..."
+    },
+    {
+      "class": 36,
+      "description": "Insurance; financial affairs; real estate affairs..."
+    },
+    {
+      "class": 37,
+      "description": "Building construction; repair; installation services..."
+    },
+    {
+      "class": 38,
+      "description": "Telecommunications..."
+    },
+    {
+      "class": 39,
+      "description": "Transport; packaging and storage of goods; travel arrangement..."
+    },
+    {
+      "class": 40,
+      "description": "Treatment of materials..."
+    },
+    {
+      "class": 41,
+      "description": "Education, entertainment, sporting or cultural activities..."
+    },
+    {
+      "class": 42,
+      "description": "Scientific and technological services and research and design relating thereto..."
+    },
+    {
+      "class": 43,
+      "description": "Services for providing food and drink; temporary accommodation..."
+    },
+    {
+      "class": 44,
+      "description": "Medical services; veterinary services; hygienic and beauty care for human beings or animals..."
+    },
+    {
+      "class": 45,
+      "description": "Legal services; personal and social services rendered by others to meet the needs of individuals..."
+    }
+  ]
 }

@@ -20,7 +20,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: $purple;
+    background: $blue;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -33,7 +33,7 @@
 
 .active {
   background-color: #fff;
-  color: $purple;
+  color: $blue;
 
   &:after {
     width: 100%;

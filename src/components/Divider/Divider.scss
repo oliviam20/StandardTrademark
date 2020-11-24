@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+
+.divider {
+  max-width: 1024px;
+  margin: 3rem 2rem 2rem;
+  padding: 0;
+  height: 1px;
+  background-color: $light-grey;
+}

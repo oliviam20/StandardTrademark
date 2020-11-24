@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.classesWrapper {
+  display: flex;
+
+  &:hover {
+    p {
+      color: $blue;
+    }
+  }
+
+  p:first-child {
+    margin-right: 2rem;
+  }
+}
