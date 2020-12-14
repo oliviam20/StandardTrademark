@@ -1,4 +1,10 @@
-@import '../variables.scss';
+@import "../variables.scss";
+
+.App {
+  display: block;
+  position: relative;
+  width: 100%;
+}
 
 header {
   display: flex;
@@ -19,7 +25,7 @@ header {
 }
 
 .infoSection {
-  padding: 0 1rem;
+  // padding: 0 1rem;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -52,6 +58,7 @@ header {
   display: flex;
   align-items: center;
   font-size: 1rem;
+  transition: color 200ms ease-out;
 
   &:hover {
     color: $blue;
@@ -60,4 +67,35 @@ header {
   i {
     margin-right: 1rem;
   }
+}
+
+.graphicWrapper {
+  position: relative;
+
+  .graphicBackground {
+    @include gradient-background;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    -webkit-transform: skewY(168deg);
+    transform: skewY(168deg);
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    top: -5rem;
+    overflow: hidden;
+    z-index: -1;
+  }
+}
+
+.sectionWrapper {
+  display: block;
+  margin: 0 auto;
+  // background-color: #fff;
+  // border-radius: 0.5rem;
+  // box-shadow: $box-shadow;
+  // padding: 1rem;
+
+  // @media (min-width: $mobile) {
+  //   padding: 2rem;
+  // }
 }

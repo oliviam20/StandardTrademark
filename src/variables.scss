@@ -17,3 +17,11 @@ $blue: #006FCF;
 $primary-text: #222222;
 
 $box-shadow: 0px 2px 16px rgba(34, 34, 34, 0.25);
+
+// mixins
+
+@mixin gradient-background {
+  background-repeat: no-repeat;
+  background-color: #60a0e0;
+  background-image: linear-gradient(328deg,#60a0e0 0,#3caa73 68%);
+}
