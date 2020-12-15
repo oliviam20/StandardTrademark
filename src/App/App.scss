@@ -25,7 +25,6 @@ header {
 }
 
 .infoSection {
-  // padding: 0 1rem;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -38,13 +37,24 @@ header {
   width: 100%;
 }
 
+.headerSection {
+  @media (min-width: $mobile) {
+    display: none;
+  }
+}
+
 .navigationSection {
   margin: 1rem auto;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 
   button {
-    margin: 1rem;
+    @media (min-width: $mobile) {
+      margin: 1rem;
+    }
   }
 }
 
@@ -75,27 +85,23 @@ header {
   .graphicBackground {
     @include gradient-background;
     position: absolute;
-    height: 600px;
+    height: 800px;
     width: 100%;
-    -webkit-transform: skewY(168deg);
-    transform: skewY(168deg);
+    -webkit-transform: skewY(172deg);
+    transform: skewY(172deg);
     -webkit-transform-origin: 0;
     transform-origin: 0;
-    top: -5rem;
+    top: -6rem;
     overflow: hidden;
     z-index: -1;
+
+    @media (min-width: $mobile) {
+      height: 600px;
+    }
   }
 }
 
 .sectionWrapper {
   display: block;
   margin: 0 auto;
-  // background-color: #fff;
-  // border-radius: 0.5rem;
-  // box-shadow: $box-shadow;
-  // padding: 1rem;
-
-  // @media (min-width: $mobile) {
-  //   padding: 2rem;
-  // }
 }

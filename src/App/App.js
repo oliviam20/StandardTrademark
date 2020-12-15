@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-// import Header from '../components/Header/Header';
 import Btn from "../components/Btn/Btn";
 import Card from "../components/Card/Card";
 import Contact from "../components/Contact/Contact";
 import Description from "../components/Description/Description";
 import Divider from "../components/Divider/Divider";
+import Header from "../components/Header/Header";
 import Paragraph from "../components/Paragraph/Paragraph";
 import SubHeading from "../components/SubHeading/SubHeading";
 import VideoPlayer from "../components/VideoPlayer/VideoPlayer";
@@ -50,9 +50,10 @@ function App() {
       <div className="graphicWrapper">
         <div className="graphicBackground" />
       </div>
-      {/* <Logo /> */}
+
       <section className="languageSection">
         <Btn
+          v2
           activeText={lang}
           dataText="english"
           text="english"
@@ -60,12 +61,17 @@ function App() {
           styles={{ fontSize: "0.8rem" }}
         />
         <Btn
+          v2
           activeText={lang}
           dataText="中文"
           text="中文"
           onHandleClick={changeLang}
           styles={{ fontSize: "0.8rem" }}
         />
+      </section>
+
+      <section className="headerSection">
+        <Header />
       </section>
 
       <section className="infoSection descriptionSection sectionWrapper">
@@ -135,7 +141,9 @@ function App() {
       </div>
 
       <section className="infoSection contactSection">
-        <Contact />
+        <Card>
+          <Contact />
+        </Card>
       </section>
     </div>
   );

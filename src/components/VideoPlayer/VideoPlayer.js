@@ -15,7 +15,10 @@ const VideoPlayer = () => (
       volume={0}
       url="https://res.cloudinary.com/dwfzniyyh/video/upload/v1605920873/hongkong/hongkong.mp4"
       width="100%"
-      height="100%"
+      height="auto"
+      style={{
+        overflow: "hidden",
+      }}
     />
   </div>
 );

@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import Heading from "../Heading/Heading";
 import Logo from "../Logo/Logo";
+import Scroll from "../Scroll/Scoll";
 import "./Header.scss";
 
 const Header = () => (
@@ -8,6 +9,9 @@ const Header = () => (
     <Logo />
     <Heading text="Standard Tradmark Registration Service Ltd" />
     <Heading text="標準商標事務有限公司" />
+    <div className="scrollWrapper">
+      <Scroll />
+    </div>
   </header>
 );
 

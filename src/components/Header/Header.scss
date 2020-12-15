@@ -1,9 +1,15 @@
+@import "../../variables.scss";
+
 .headerWrapper {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
+
+  @media (min-width: $mobile) {
+    position: absolute;
+    height: 90%;
+  }
 }
 
 .fadeIn {
@@ -20,5 +26,14 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+.scrollWrapper {
+  display: none;
+  margin-top: 1rem;
+
+  @media (min-width: $mobile) {
+    display: block;
   }
 }

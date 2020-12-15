@@ -1,17 +1,22 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .languageBtn {
   background-color: transparent;
   border: 0;
   border-radius: 0.5rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 900;
-  padding: 1rem 2rem;
+  padding: 0.5rem 0.7rem;
   position: relative;
   text-transform: capitalize;
-  
-  &:after {    
+
+  @media (min-width: $mobile) {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  &:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -24,9 +29,9 @@
     width: 0;
   }
 
-  &:hover:after { 
+  &:hover:after {
     width: 100%;
-    left: 0; 
+    left: 0;
   }
 }
 
@@ -37,5 +42,68 @@
   &:after {
     width: 100%;
     left: 0;
+  }
+}
+
+.btn2 {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+
+  background-color: transparent;
+  border: 0;
+
+  font-weight: 100;
+
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+
+  &:hover {
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    rect {
+      stroke-width: 5;
+      stroke-dasharray: 15, 310;
+      stroke-dashoffset: 48;
+      transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }
+}
+
+.active2 {
+  font-weight: 900;
+  letter-spacing: 1px;
+
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
   }
 }
