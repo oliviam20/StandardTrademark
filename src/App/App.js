@@ -5,6 +5,7 @@ import Card from "../components/Card/Card";
 import Contact from "../components/Contact/Contact";
 import Description from "../components/Description/Description";
 import Divider from "../components/Divider/Divider";
+import Form from "../components/Form/Form";
 import Header from "../components/Header/Header";
 import Paragraph from "../components/Paragraph/Paragraph";
 import SubHeading from "../components/SubHeading/SubHeading";
@@ -142,6 +143,7 @@ function App() {
 
       <section className="infoSection contactSection">
         <Card>
+          <Form />
           <Contact />
         </Card>
       </section>
