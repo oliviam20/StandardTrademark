@@ -4,12 +4,12 @@ import Logo from "../Logo/Logo";
 import Scroll from "../Scroll/Scoll";
 import "./Header.scss";
 
-const Header = () => (
+const Header = ({ onClickHandler }) => (
   <header className="headerWrapper fadeIn">
     <Logo />
     <Heading text="Standard Tradmark Registration Service Ltd" />
     <Heading text="標準商標事務有限公司" />
-    <div className="scrollWrapper">
+    <div className="scrollWrapper" onClick={onClickHandler}>
       <Scroll />
     </div>
   </header>

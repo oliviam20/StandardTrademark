@@ -2,13 +2,13 @@ import React from "react";
 import "./Scroll.scss";
 
 const Scroll = () => (
-  <a href="#">
+  <button className="scrollButton">
     <div className="box">
       <span />
       <span />
       <span />
     </div>
-  </a>
+  </button>
 );
 
 export default Scroll;

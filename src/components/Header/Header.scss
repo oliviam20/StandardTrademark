@@ -32,6 +32,8 @@
 .scrollWrapper {
   display: none;
   margin-top: 1rem;
+  position: relative;
+  z-index: 1;
 
   @media (min-width: $mobile) {
     display: block;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 import Btn from "../components/Btn/Btn";
 import Card from "../components/Card/Card";
@@ -6,6 +6,7 @@ import Contact from "../components/Contact/Contact";
 import Description from "../components/Description/Description";
 import Divider from "../components/Divider/Divider";
 import Header from "../components/Header/Header";
+import HeroStripes from "../components/HeroStripes/HeroStripes";
 import Paragraph from "../components/Paragraph/Paragraph";
 import SubHeading from "../components/SubHeading/SubHeading";
 import VideoPlayer from "../components/VideoPlayer/VideoPlayer";
@@ -44,14 +45,18 @@ function App() {
     newWindow.opener = null;
   };
 
+  const myRef = useRef(null);
+  const executeScroll = () => myRef.current.scrollIntoView();
+
   return (
     <div className="App">
-      <VideoPlayer />
+      <VideoPlayer onClickHandler={executeScroll} />
+
       <div className="graphicWrapper">
-        <div className="graphicBackground" />
+        <HeroStripes />
       </div>
 
-      <section className="languageSection">
+      <section className="languageSection" id="languageSection" ref={myRef}>
         <Btn
           v2
           activeText={lang}

@@ -3,10 +3,11 @@ import ReactPlayer from "react-player/file";
 import Header from "../Header/Header";
 import "./VideoPlayer.scss";
 
-const VideoPlayer = () => (
+const VideoPlayer = (props) => (
   <div className="playerWrapper">
     <div className="playerMask" />
-    <Header />
+    <div className="onLoadVideoBackgroundMask" />
+    <Header {...props} />
     <ReactPlayer
       className="reactPlayer"
       loop

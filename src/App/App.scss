@@ -50,6 +50,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #fff;
+  border-radius: 0.5rem;
 
   button {
     @media (min-width: $mobile) {
