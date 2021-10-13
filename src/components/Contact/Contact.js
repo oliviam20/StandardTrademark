@@ -26,8 +26,8 @@ const Contact = () => {
     <div key={index} className="contactInfoWrapper">
       <p className="label">{add.label}</p>
       <div>
-        {add.addresses.map((loc, index) => (
-          <p key={index}>{loc}</p>
+        {add.addresses.map((location, index) => (
+          <p key={index}>{location}</p>
         ))}
       </div>
     </div>
@@ -44,7 +44,7 @@ const Contact = () => {
     },
     {
       label: "Whatsapp:",
-      info: "+852 5325 8834",
+      info: "852 5325 8834",
     },
     {
       label: "Email 電郵:",
@@ -52,17 +52,21 @@ const Contact = () => {
     },
   ];
 
+  function renderContactInfo(contact) {
+    if (contact.label === "Email 電郵:") {
+      return <a href={`mailto:${contact.info}`}>{contact.info}</a>;
+    } else if (contact.label === "Whatsapp:") {
+      const number = contact.info.replace(/\s+/g, "");
+      return <a href={`https://wa.me/${number}`}>+ {contact.info}</a>;
+    }
+    return <p>{contact.info}</p>;
+  }
+
   const contacts = contactsArr.map((contact, index) => {
-    const info =
-      contact.label === "Email 電郵:" ? (
-        <a href={`mailto:${contact.info}`}>{contact.info}</a>
-      ) : (
-        <p>{contact.info}</p>
-      );
     return (
       <div key={index} className="contactInfoWrapper">
         <p className="label">{contact.label}</p>
-        <div>{info}</div>
+        <div>{renderContactInfo(contact)}</div>
       </div>
     );
   });
