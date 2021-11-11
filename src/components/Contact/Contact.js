@@ -58,7 +58,7 @@ const Contact = () => {
     } else if (contact.label === "Whatsapp:") {
       const number = contact.info.replace(/\s+/g, "");
       return (
-        <a href={`https://wa.me/${number}`} target="_blank">
+        <a href={`https://wa.me/${number}`} rel="noreferrer" target="_blank">
           + {contact.info}
         </a>
       );
