@@ -57,7 +57,11 @@ const Contact = () => {
       return <a href={`mailto:${contact.info}`}>{contact.info}</a>;
     } else if (contact.label === "Whatsapp:") {
       const number = contact.info.replace(/\s+/g, "");
-      return <a href={`https://wa.me/${number}`}>+ {contact.info}</a>;
+      return (
+        <a href={`https://wa.me/${number}`} target="_blank">
+          + {contact.info}
+        </a>
+      );
     }
     return <p>{contact.info}</p>;
   }
