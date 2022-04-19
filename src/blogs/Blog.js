@@ -33,10 +33,10 @@ const Blog = () => {
       <section className="navSection" id="navSection">
         <Link className="link" to="/">
           <Btn
-          v2
-          text="Home"
-          styles={{ fontSize: "0.8rem" }}
-        />
+            v2
+            text="Home"
+            styles={{ fontSize: "0.8rem" }}
+          />
         </Link>
       </section>
 

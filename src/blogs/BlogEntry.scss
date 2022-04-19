@@ -45,3 +45,11 @@
 .space {
   padding: 0.25rem;
 }
+
+.nav {
+  margin-right: 0.5rem;
+
+  @media (min-width: $mobile) {
+    margin-right: 1rem;
+  }
+}
