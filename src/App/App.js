@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className="App">
-      <VideoPlayer onClickHandler={executeScroll} />
+      <VideoPlayer onClickHandler={executeScroll} white />
 
       <div className="graphicWrapper">
         <HeroStripes />
@@ -83,7 +83,7 @@ function App() {
       </section>
 
       <section className="headerSection">
-        <Header />
+        <Header white />
       </section>
 
       <section className="infoSection descriptionSection sectionWrapper">

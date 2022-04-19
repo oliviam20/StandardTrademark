@@ -4,6 +4,7 @@ import Btn from "../components/Btn/Btn";
 import Card from "../components/Card/Card";
 import Divider from "../components/Divider/Divider";
 import HeroStripes from "../components/HeroStripes/HeroStripes";
+import Layout from "../components/Layout/Layout";
 import Paragraph from "../components/Paragraph/Paragraph";
 import PropTypes from 'prop-types';
 import SubHeading from "../components/SubHeading/SubHeading";
@@ -29,6 +30,8 @@ const BlogEntry = ({
       <div className="graphicWrapper">
         <HeroStripes />
       </div>
+
+      <Layout />
 
       <section className="navSection" id="navSection">
         <Link className="link" to="/blog">
