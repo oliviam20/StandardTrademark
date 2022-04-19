@@ -1,0 +1,84 @@
+{
+  "entries": [
+    {
+      "date": "10-11-2021",
+      "en": {
+        "title": "How are the EU-registered trademarks affected after BREXIT?",
+        "contents": [
+          {
+            "type": "paragraph",
+            "text": "As the United Kingdom officially left the European Union in early 2020, the United Kingdom is no longer a member of the European Union. However, all previously successfully registered trademarks in the EU will automatically be registered in the respective class(es) in the UK. From 1 January 2021, all new EU trademark applications will only cover the remaining 27 EU member states except the United Kingdom**. Therefore, do remember to renew your trademark both in the EU and UK upon expiry. If you wish to protect your NEW trademark in the UK, you must file a separate application in this country."
+          },
+          {
+            "type": "heading-paragraph",
+            "text": "** EU member states since February 1, 2020",
+            "styles": {
+              "noMargin": true
+            }
+          },
+          {
+            "type": "paragraph",
+            "text": "Austria, Belgium, Croatia, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, Cyprus, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovak Republic, Slovenia, Bulgaria and Romania. (27 members)",
+            "styles": {
+              "italic": true
+            }
+          }
+        ]
+      },
+      "cn": {
+        "title": "英國脱歐後, 以前的歐盟註冊商標, 是否需要重新在英國註冊?",
+        "contents": [
+          {
+            "type": "paragraph",
+            "text": "由於英國於2020年初正式脱歐，英國不再是歐盟的成員國。 然而，所有以前在歐盟成功註冊的商標都會自動就相關類別在英國註冊。 自2021年1月1日後，歐盟的所有新商標申請將僅涵蓋除英國以外的其餘 27 個歐盟成員國**。故此記得到時在歐盟續期後, 也要另外替您的商標在英國續期。如果有新商標希望在英國得到保護，則必須另外在英國提交獨立的申請。"
+          },
+          {
+            "type": "heading-paragraph",
+            "text": "**現時 歐盟成員國:"
+          },
+          {
+            "type": "paragraph",
+            "text": "奧地利，比利時，克羅地亞，丹麥，芬蘭，法國，德國，希臘，愛爾蘭，意大利，盧森堡，荷蘭，葡萄牙，西班牙，瑞典，塞浦路斯，捷克共和國，愛沙尼亞，匈牙利，拉脫維亞，立陶宛，馬耳他，波蘭，斯洛伐克共和國， 斯洛文尼亞，保加利亞 和 羅馬尼亞。(27 個成員國)"
+          }
+        ]
+      }
+    },
+    {
+      "date": "18-11-2021",
+      "en": {
+        "title": "How to make use of “Convention priority” for trademark applications?",
+        "contents": [
+          {
+            "type": "paragraph",
+            "text": "The right of priority under the Paris Convention provides that, on the basis of a trademark application filed in one of the countries in the Paris Union, the applicant may, within six months of that filing, apply for protection in any of the other countries in the Union."
+          },
+          {
+            "type": "paragraph",
+            "text": "A priority claim is a helpful, and often critical, way to link a later-filed trademark application to an earlier-filed application. Known as a priority application, the earlier-filed application must generally have common mark (word or logo) and common goods or services for a priority claim to be made."
+          },
+          {
+            "type": "paragraph",
+            "text": "With this facility the trademark owner who wishes to file his mark in several countries can defer the costs of applications to a maximum period of six months.  In other words, he can only pay the application cost in one country first but at the same time secure the same file filing date in his other target countries in the Union within the next six months. He can choose the country with the lowest application cost as the base country for the claim to minimise the initial cashflow. However, there may be extra fees for the priority claim in some countries/regions."
+          }
+        ]
+      },
+      "cn": {
+        "title": "利用“公約優先權”申請商標有何好處？",
+        "contents": [
+          {
+            "type": "paragraph",
+            "text": "《巴黎公約》的優先權規定，申請人可以根據在公約內其中一個成員國所提交的商標申請，在其後六個月內，向公約中的任何其他成員國申請同一商標保護時，作出優先權聲明。"
+          },
+          {
+            "type": "paragraph",
+            "text": "優先權聲明是將後來提交的商標申請與在先提交的申請聯繫起來的有效方法。但一般情況下，較早提交的申請必須具有共同的標記（文字或標誌）和共同的商品或服務，才能提出優先權要求。"
+          },
+          {
+            "type": "paragraph",
+            "text": "有了這項便利，凡希望在多個國家/地區提交商標申請的商標持有人可以將大部份申請費用推遲六個月。換句話說，他能先在一個國家支付申請費用，但在接下來的六個月內仍然可以在其他公約國獲得相同的申請日期。他可以選擇申請成本最低的國家作為優先權聲明的基礎國，以盡量減少前期的現金流。但要注意，在某些國家地區使用優先權聲明是有額外費用的。"
+          }
+        ]
+      }
+    }
+  ]
+}
