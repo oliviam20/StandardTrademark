@@ -1,0 +1,46 @@
+@import "../variables.scss";
+
+.graphicWrapper {
+  position: relative;
+
+  .graphicBackground {
+    @include gradient-background;
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    -webkit-transform: skewY(172deg);
+    transform: skewY(172deg);
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    top: -6rem;
+    overflow: hidden;
+    z-index: -1;
+
+    @media (min-width: $mobile) {
+      height: 600px;
+    }
+  }
+}
+
+.navSection {
+  margin: 1rem;
+  margin-top: 0;
+
+  button {
+    margin: 0.25rem;
+
+    @media (min-width: $mobile) {
+      margin: 1rem;
+    }
+  }
+}
+
+.blogWrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.space {
+  padding: 0.25rem;
+}

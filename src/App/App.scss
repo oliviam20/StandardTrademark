@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+.link {
+  max-width: 160px;
+  width: 100%;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -20,7 +25,11 @@ header {
   justify-content: center;
 
   button {
-    margin: 1rem;
+    margin: 0.25rem;
+
+    @media (min-width: $mobile) {
+      margin: 1rem;
+    }
   }
 }
 

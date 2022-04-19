@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-
+import { Link } from "react-router-dom";
 import Btn from "../components/Btn/Btn";
 import Card from "../components/Card/Card";
 import Contact from "../components/Contact/Contact";
@@ -73,6 +73,13 @@ function App() {
           onHandleClick={changeLang}
           styles={{ fontSize: "0.8rem" }}
         />
+        <Link className="link" to="/blog">
+          <Btn
+            v2
+            text={activeLang.blogLink}
+            styles={{ fontSize: "0.8rem" }}
+          />
+        </Link>
       </section>
 
       <section className="headerSection">
