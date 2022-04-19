@@ -23,14 +23,15 @@
 }
 
 .navSection {
-  margin: 1rem;
   margin-top: 0;
 
   button {
     margin: 0.25rem;
 
     @media (min-width: $mobile) {
-      margin: 1rem;
+      margin: 0;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
     }
   }
 }

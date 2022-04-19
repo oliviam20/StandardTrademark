@@ -1,8 +1,9 @@
 import React, { memo } from "react"
 import { Link } from "react-router-dom";
-import HeroStripes from "../components/HeroStripes/HeroStripes";
 import Btn from "../components/Btn/Btn";
 import Card from "../components/Card/Card";
+import HeroStripes from "../components/HeroStripes/HeroStripes";
+import Layout from "../components/Layout/Layout";
 import SubHeading from "../components/SubHeading/SubHeading";
 import blogs from "./blogs.json";
 import "./Blog.scss"
@@ -26,6 +27,8 @@ const Blog = () => {
       <div className="graphicWrapper">
         <HeroStripes />
       </div>
+
+      <Layout />
 
       <section className="navSection" id="navSection">
         <Link className="link" to="/">
