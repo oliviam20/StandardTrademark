@@ -15,7 +15,7 @@ const Blog = () => {
         <Link
           className="entry-links"
           key={index}
-          to={`/blog/${entry.date}`}>{`${entry.date} ${entry.cn.title}`}
+          to={`/blog/${entry.date}`}>{`${entry.date} ${entry.en.title} | ${entry.cn.title}`}
         </Link>
         )
       )
